@@ -1,5 +1,7 @@
-body {
+.cuerpo{
     font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight:200;
+    font-size: large;
     background-color: #353541;
     margin-top: 0%;
     margin-left: 0%;
@@ -8,13 +10,13 @@ body {
     color: white;
 }
 
-header{
+.cabecera{
     background-color:#19a888;
     padding: 1%;  
     margin: 0%;
 }
 
-nav{
+.navegacion{
     margin-top: 0%;
     display: inline-block; 
     font-size:large; 
@@ -31,13 +33,25 @@ img{
     vertical-align: middle;
 }
 
-a{
+.menu{
+    color: white;
+    text-decoration: none; 
+    font-weight:400;
+}
+
+.menu:hover{
+    font-weight:800;
+    text-decoration: none;  
+    color: white;  
+}
+
+.enlace{
     color: white;
     text-decoration: none; 
 }
 
-a:hover{
-    font-weight: 600;
+.enlace:hover{  
+    color: white;
 }
 
 footer{
@@ -45,4 +59,8 @@ footer{
     color:white;
     text-align: center;
     padding: 3%;
+}
+
+.negrita{
+    font-weight:600;
 }
